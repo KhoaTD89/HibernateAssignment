@@ -18,7 +18,14 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hbm2ddl.auto">create</property>
 
-<!--        <mapping class="edu.fa.entity.CinemaRoom"/>-->
+        <mapping class="com.hibernate.entity.Movie"/>
+        <mapping class="com.hibernate.entity.Customer"/>
+        <mapping class="com.hibernate.entity.Hall"/>
+        <mapping class="com.hibernate.entity.ScreenTime"/>
+        <mapping class="com.hibernate.entity.ScreenTimeHall"/>
+        <mapping class="com.hibernate.entity.ScreenTimeMovie"/>
+        <mapping class="com.hibernate.entity.Seat"/>
+        <mapping class="com.hibernate.entity.Ticket"/>
 
 
     </session-factory>

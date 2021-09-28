@@ -1,4 +1,4 @@
-import edu.fa.util.HibernateUtil;
+import com.hibernate.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.jupiter.api.*;
