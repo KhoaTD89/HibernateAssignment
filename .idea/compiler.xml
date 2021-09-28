@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ORM.M.A101" />
+        <module name="HibernateAssignment" />
         <module name="Template" />
       </profile>
     </annotationProcessing>
